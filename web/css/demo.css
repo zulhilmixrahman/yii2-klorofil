@@ -1,0 +1,40 @@
+/* All styles created for demo purposes only, you may not need this for your project */
+.demo-button button {
+  margin-bottom: 5px;
+}
+
+.demo-icons li {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.demo-icons .lnr,
+.demo-icons .fa {
+  font-size: 28px;
+}
+.demo-icons .cssclass {
+  display: block;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.contents {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 250px;
+  padding: 15px;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+.breadcrumbs > li {
+  display: inline-block;
+}
+.breadcrumbs > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+.breadcrumbs > .active {
+  color: #777;
+}
